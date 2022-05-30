@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto, Oxygen;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-around;
+  text-align: center;
+}
+.container span {
+  color: red;
+}
+.container p {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: "Dancing Script", cursive;
+}
+.container h2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 4rem;
+}
+
+.count-down {
+  display: flex;
+  justify-content: space-evenly;
+}
+.second {
+  color: red;
+}
+.vector {
+  width: 25rem;
+  margin: 0 auto;
+}
