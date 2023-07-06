@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&family=Lora:ital,wght@1,500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  
+
 }
+
 body {
   margin: 0;
   padding: 0;
 
 }
+
 /*conteiner style begin*/
 .container {
   background-color: #85ffbd;
@@ -23,14 +26,17 @@ body {
   opacity: 1;
   transition: opacity 2000ms;
 }
+
 .container h2 span {
   color: red;
 }
+
 .container p {
   font-size: 3rem;
   text-transform: capitalize;
   font-family: "Dancing Script", cursive;
 }
+
 .container h2 {
   font-family: "Comfortaa", cursive;
   font-size: 4rem;
@@ -40,9 +46,11 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
 .container .second {
   color: red;
 }
+
 .container .segment {
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
@@ -50,12 +58,18 @@ body {
   border-radius: 15px;
   background-color: aliceblue;
 }
+
 .container .vector {
   width: 25rem;
   margin: 0 auto;
 }
+
+.vector img {
+  width: 400px;
+}
+
 /*New container style*/
-.new-container{
+.new-container {
   background: url(pictures/flower.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -67,19 +81,22 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  
+
 }
+
 .new-container header {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
 }
+
 .new-container .card {
   height: 100vh;
   width: 50vw;
   display: flex;
 }
+
 .new-container .card img {
   width: 30vw;
   align-self: end;
@@ -87,12 +104,21 @@ body {
   opacity: 0;
   transition: opacity 3000ms;
 }
+
 .new-container .main-content {
   display: flex;
   flex-direction: column;
   margin: 0 3rem;
   justify-content: space-evenly;
 }
+
+#lucky {
+  font-family: "Comfortaa", cursive;
+  color: red;
+  font-size: 2rem;
+  /* float: right; */
+}
+
 #ruban {
   width: 400px;
 }
@@ -115,22 +141,26 @@ body {
   font-family: "Comfortaa", cursive;
   line-height: 45px;
 }
+
 .new-container .actions {
   display: flex;
   justify-content: center;
   width: 70%;
 }
+
 .new-container span {
   color: black;
   align-self: center;
   padding-left: 10px;
   visibility: hidden;
 }
+
 #regards {
   color: #7d7bf1;
   text-align: right;
   margin-bottom: 1rem;
 }
+
 .new-container .actions button {
   margin-left: 20px;
   margin-top: 0px;
@@ -142,19 +172,22 @@ body {
   font-weight: 500;
   width: 10rem;
 }
+
 #btn-gift {
   font-family: "Comfortaa", cursive;
   cursor: pointer;
   position: relative;
   background-color: #16a150;
-  
+
 }
+
 #btn-no-gift {
   font-family: "Comfortaa", cursive;
   background-color: rgb(255, 61, 61);
   cursor: not-allowed;
 }
-#error{
+
+#error {
   font-family: "Comfortaa", cursive;
   color: red;
 }

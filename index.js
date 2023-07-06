@@ -1,5 +1,5 @@
 const countDown = () => {
-  const countDate = new Date("june 8, 2022 00:00:00").getTime();
+  const countDate = new Date("july6, 2023 16:51:30").getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
   /** how the time work*/
@@ -43,7 +43,7 @@ element1.addEventListener("click",hide);
 const showImage = document.getElementById("cake");
 const error = document.querySelector("#error");
 const hideAll = document.querySelector(".new-container");
-console.log(hideAll);  
+console.log(hideAll);
 function show() {
   showImage.style.opacity = "1";
   document.getElementById("btn-no-gift").style.cursor = "pointer";
@@ -54,11 +54,11 @@ function hide() {
   error.style.visibility = "visible";
 }
 let changeText = document.querySelector("#heroHeading");
-changeText.addEventListener("mouseenter",function(event){
-  event.target.innerText = "Happy Birthday Beautiful";
+changeText.addEventListener("mouseenter", function (event) {
+  event.target.innerText = "Get Well Soon My beautiful Baby";
 })
-changeText.addEventListener("mouseout",function(event){
-  event.target.innerText = "Happy Birthday Vampire";
+changeText.addEventListener("mouseout", function (event) {
+  event.target.innerText = "Get Well Soon My beautiful wife";
 })
 
 
