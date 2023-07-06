@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&family=Lora:ital,wght@1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+/*conteiner style begin*/
+.container {
+  background-color: #85ffbd;
+  background-image: linear-gradient(20deg, #85ffbd 0%, #fffb7d 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-around;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+
+.container h2 span {
+  color: red;
+}
+
+.container p {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: "Dancing Script", cursive;
+}
+
+.container h2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 4rem;
+}
+
+.container .count-down {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container .second {
+  color: red;
+}
+
+.container .segment {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+  width: 15vw;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.container .vector {
+  width: 25rem;
+  margin: 0 auto;
+}
+
+.vector img {
+  width: 400px;
+}
+
+/*New container style*/
+.new-container {
+  background: url(pictures/flower.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: 50% 45%;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 5000ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.new-container header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.new-container .card {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+}
+
+.new-container .card img {
+  width: 30vw;
+  align-self: end;
+  margin-bottom: 5rem;
+  opacity: 0;
+  transition: opacity 3000ms;
+}
+
+.new-container .main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+  justify-content: space-evenly;
+}
+
+#lucky {
+  font-family: "Comfortaa", cursive;
+  color: red;
+  font-size: 2rem;
+  /* float: right; */
+}
+
+#ruban {
+  width: 400px;
+}
+
+.new-container h2 {
+  color: #7d7bf1;
+  font-size: 3.5rem;
+  overflow: hidden;
+  font-family: "Lora", serif;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #00ccff;
+}
+
+.new-container p {
+  width: 70%;
+  color: black;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Comfortaa", cursive;
+  line-height: 45px;
+}
+
+.new-container .actions {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.new-container span {
+  color: black;
+  align-self: center;
+  padding-left: 10px;
+  visibility: hidden;
+}
+
+#regards {
+  color: #7d7bf1;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.new-container .actions button {
+  margin-left: 20px;
+  margin-top: 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 10rem;
+}
+
+#btn-gift {
+  font-family: "Comfortaa", cursive;
+  cursor: pointer;
+  position: relative;
+  background-color: #16a150;
+
+}
+
+#btn-no-gift {
+  font-family: "Comfortaa", cursive;
+  background-color: rgb(255, 61, 61);
+  cursor: not-allowed;
+}
+
+#error {
+  font-family: "Comfortaa", cursive;
+  color: red;
+}
