@@ -70,6 +70,7 @@ body {
 
 /*New container style*/
 .new-container {
+  height: 100vh;
   background: url(pictures/flower.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -92,17 +93,23 @@ body {
 }
 
 .new-container .card {
-  height: 100vh;
+  /* height: 50vh; */
   width: 50vw;
-  display: flex;
+  /* display: flex; */
+}
+
+.new-container .tab {
+  height: 280px;
 }
 
 .new-container .card img {
   width: 30vw;
   align-self: end;
-  margin-bottom: 5rem;
+  margin-top: 200px;
+  /* margin-bottom: 5rem; */
   opacity: 0;
   transition: opacity 3000ms;
+  margin-top: 300px;
 }
 
 .new-container .main-content {
