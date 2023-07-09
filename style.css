@@ -75,7 +75,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: 50% 45%;
+  background-position: 50% 40%;
   background-size: cover;
   opacity: 0;
   transition: opacity 5000ms;
@@ -99,7 +99,7 @@ body {
 }
 
 .new-container .tab {
-  height: 280px;
+  height: 300px;
 }
 
 .new-container .card img {
@@ -132,7 +132,7 @@ body {
 
 .new-container h2 {
   color: #7d7bf1;
-  font-size: 3.5rem;
+  font-size: 3rem;
   overflow: hidden;
   font-family: "Lora", serif;
   margin-bottom: 20px;
@@ -166,6 +166,10 @@ body {
   color: #7d7bf1;
   text-align: right;
   margin-bottom: 1rem;
+}
+
+.new-container .actions {
+  margin-top: 30px;
 }
 
 .new-container .actions button {
