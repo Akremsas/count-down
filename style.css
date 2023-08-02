@@ -202,3 +202,37 @@ body {
   font-family: "Comfortaa", cursive;
   color: red;
 }
+
+
+
+
+/****iphone 12 responsive design****/
+@media screen and (max-width: 480px) {
+  .container p {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .container h2 {
+    font-family: "Comfortaa", cursive;
+    font-size: 1rem;
+  }
+
+  .container .segment {
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+    width: 20vw;
+    border-radius: 15px;
+    background-color: aliceblue;
+  }
+
+  .container h2 span {
+    font-size: 2rem;
+  }
+
+  .vector img {
+    width: 200px;
+  }
+
+}
